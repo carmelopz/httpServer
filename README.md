@@ -8,7 +8,7 @@ Clone the repo in your local directory:
 
 git clone https://github.com/carmelopz/httpserver
 
-or download it and extract it the httpserver directory.
+or download it and extract it in the httpserver directory.
 
 Go into the directory:
 
