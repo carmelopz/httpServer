@@ -28,7 +28,7 @@ Run the container in the port 80 in the container redirected to port 30000 in th
 
     docker run -p 30000:80 httpserver
 
-En http://localhost:30000 you will get:
+In http://localhost:30000 you will get:
 
 "There's a maintenance in progress." 
 
