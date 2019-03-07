@@ -20,4 +20,4 @@ En http://localhost:30000 you will get:
 
 "There's a maintenance in progress." 
 
-or whatever is indicated in the Dockerfile.
+or whatever is indicated in the index.html file.
