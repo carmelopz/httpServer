@@ -22,7 +22,7 @@ Build The container:
 
     docker build -t httpserver .
 
-Run the container in the port 80 in the container redirecting to the port 30000 in the host:
+Run the container in the port 80 in the container redirecting to port 30000 in the host:
 
     docker run -p 30000:80 httpserver
 
