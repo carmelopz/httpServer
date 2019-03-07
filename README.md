@@ -1,18 +1,18 @@
 # httpServer
 Create a container with a basic httpServer that shows configurable messages about the status of the tool when there's a maintenance in progress. 
 
-Instrucciones:
+Instructions:
 
-Construir el contenedor:
+Build The container:
 
 docker build -t httpserver .
 
-Ejecutar el contenedory asignar el puero 30000 del host al 80 en el contenedor:
+Run the container in the port 80 in the container redirecting to the port 30000 in the host:
 
 docker run -p 30000:80 httpserver
 
-En http://localhost:30000 debe salir el mensaje:
+En http://localhost:30000 you will get:
 
-"Este sitio está en mantenimiento" 
+"There's a maintenance in progress." 
 
-o el que se indique en la Dockerfile.
+or whatever is indicated in the Dockerfile.
