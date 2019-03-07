@@ -1,13 +1,11 @@
-FROM centos:7
+FROM centos:latest
 MAINTAINER carmelopz@gmail.com
 
-RUN yum -y --setopt=tsflags=nodocs update && \
-    yum -y --setopt=tsflags=nodocs install httpd && \
-    yum clean all
+RUN yum -y install httpd
+echo "Este sitio está en mantenimiento" > /var/www/html/index.html
+CMD [“/usr/sbin/httpd”, “-D”, “FOREGROUND”]
 
-EXPOSE 80
+EXPOSE 30000
 
-ADD run-httpd.sh /run-httpd.sh
-RUN chmod -v +x /run-httpd.sh
 
-CMD ["/run-httpd.sh"]
+
