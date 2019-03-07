@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER carmelo.perez@externals.adidas.com
+MAINTAINER carmelopz@gmail.com
 
 RUN yum -y --setopt=tsflags=nodocs update && \
     yum -y --setopt=tsflags=nodocs install httpd && \
