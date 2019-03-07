@@ -15,6 +15,7 @@ Go into the directory:
     cd httpserver
 
 Create an index.html file with the desired content:
+
 (use an html editor to create a proper index.html file, this text is just an example)
 
     echo "Este sitio está en mantenimiento" > index.html
