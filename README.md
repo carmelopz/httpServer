@@ -6,7 +6,7 @@ Instructions:
 
 Create an index.html file in your local directory:
 
-    echo "Este sitio está en mantenimiento" > /var/www/html/index.html
+    echo "Este sitio está en mantenimiento" > index.html
 
 Build The container:
 
