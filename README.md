@@ -3,7 +3,7 @@ Create a container with a basic httpServer that shows configurable messages abou
 
 Construir el contenedor:
 
-docker build --rm -t httpserver .
+docker build -t httpserver .
 
 Ejecutar el contenedory asignar el puero 30000 del host al 80 en el contenedor:
 
@@ -11,3 +11,6 @@ docker run -p 30000:80 httpserver
 
 En http://localhost:30000 debe salir el mensaje:
 
+"Este sitio está en mantenimiento" 
+
+o el que se indique en la Dockerfile.
