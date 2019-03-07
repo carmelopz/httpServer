@@ -15,6 +15,7 @@ Go into the directory:
     cd httpserver
 
 Create an index.html file with the desired content:
+(use an html editor to create a proper index.html file, this text is just an example)
 
     echo "Este sitio está en mantenimiento" > index.html
 
@@ -22,7 +23,7 @@ Build The container:
 
     docker build -t httpserver .
 
-Run the container in the port 80 in the container redirecting to port 30000 in the host:
+Run the container in the port 80 in the container redirected to port 30000 in the host:
 
     docker run -p 30000:80 httpserver
 
