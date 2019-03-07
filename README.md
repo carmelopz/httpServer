@@ -4,7 +4,17 @@ Create a container with a basic httpServer that shows configurable messages abou
 
 Instructions:
 
-Create an index.html file in your local directory:
+Clone the repo in your local directory:
+
+git clone https://github.com/carmelopz/httpserver
+
+or download it and extract it the httpserver directory.
+
+Go into the directory:
+
+    cd httpserver
+
+Create an index.html file with the desired content:
 
     echo "Este sitio está en mantenimiento" > index.html
 
@@ -21,3 +31,6 @@ En http://localhost:30000 you will get:
 "There's a maintenance in progress." 
 
 or whatever is indicated in the index.html file.
+
+Press Ctrl-C to stop it.
+
