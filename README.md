@@ -4,6 +4,10 @@ Create a container with a basic httpServer that shows configurable messages abou
 
 Instructions:
 
+Create an index.html file in your local directory:
+
+    echo "Este sitio está en mantenimiento" > /var/www/html/index.html
+
 Build The container:
 
     docker build -t httpserver .
